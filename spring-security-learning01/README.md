@@ -146,8 +146,3 @@ Demo 中重写了 `WebSecurityConfigurerAdapter` 的两个方法：
  */
 ```
 意思是，`AuthenticationManagerBuilder` 用于创建一个 `AuthenticationManager`，让我能够轻松的实现内存验证、LADP验证、基于JDBC的验证、添加`UserDetailsService`、添加`AuthenticationProvider`。
-
-其他
------
-    如需转载，请联系作者，邮箱 545544032@qq.com
-    开源社区 http://spring4all.com 欢迎你
